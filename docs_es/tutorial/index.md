@@ -12,7 +12,7 @@ aquí esta el comando:
 docker run -d -p 80:80 dockersamples/101-tutorial
 ```
 
-Notarás que se utilizan algunos parametros. A continuación más información sobre estos:
+Notarás que se utilizan algunos parámetros. A continuación más información sobre estos:
 
 - `-d` - ejecuta el contenedor en modo aislado (en segundo plano)
 - `-p 80:80` - mapea el puerto 80 del host local hacia el puerto 80 en el contenedor
