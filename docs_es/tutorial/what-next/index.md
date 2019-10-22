@@ -10,8 +10,7 @@ escala en varias máquinas? La orquestación de contenedores resuelve este probl
 Swarm, Nomad y ECS ayudan a resolver este problema, todo de maneras ligeramente diferentes.
 
 La idea general es que usted tiene "managers" que reciben un **estado esperado**. Este estado podría ser
-"Quiero ejecutar dos instancias de mi aplicación web y exponerlas en el puerto 80". Los managers luego miran todos las máquinas en el clúster y delegan el trabajo a los nodos "trabajadores". Los managers observan los cambios (como
-un contenedor para salir) y luego trabajan para hacer que **estado real** refleje el estado esperado.
+"Quiero ejecutar dos instancias de mi aplicación web y exponerlas en el puerto 80". Los managers luego miran todos las máquinas en el clúster y delegan el trabajo a los nodos "trabajadores". Los managers observan los cambios (un contenedor desocupado) y luego trabajan para hacer que **estado real** refleje el estado esperado.
 
 
 ## Cloud Native Computing Foundation Projects
